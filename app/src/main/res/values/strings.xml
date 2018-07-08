@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Giphy-search-mvp</string>
+    <string name="search_video">Search Giphy Video</string>
+    <string name="empty_state_text">Looking for Giphy Video?\nPlease tap on Search Icon</string>
+    <string name="no_data_found">No data available, Please try with another keyword</string>
+    <string name="some_thing_wrong">Something went wrong, Please try again</string>
+    <string name="default_count">(0)</string>
+</resources>

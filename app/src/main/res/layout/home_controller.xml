@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.HomeActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDark" />
+
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        android:id="@+id/searchBar"
+        style="@style/MaterialSearchBarLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/search_bar_margin_start"
+        android:layout_marginTop="@dimen/seach_bar_margin_top"
+        android:layout_marginEnd="@dimen/search_bar_margin_end"
+        app:mt_hint="@string/search_video"
+        app:mt_maxSuggestionsCount="0"
+        app:mt_placeholder="@string/search_video"
+        app:mt_roundedSearchBarEnabled="true"
+        app:mt_speechMode="false" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchBar"
+        android:layout_marginTop="@dimen/recycler_margin_top" />
+
+    <include
+        android:id="@+id/emptyView"
+        layout="@layout/empty_view"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

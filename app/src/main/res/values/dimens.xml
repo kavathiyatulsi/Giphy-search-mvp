@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="progress_dialog_dim">50dp</dimen>
+    <dimen name="empty_icon_size">100dp</dimen>
+    <dimen name="empty_icon_margin">8dp</dimen>
+    <dimen name="text_size_empty_view">20sp</dimen>
+    <dimen name="padding_vote_view">5dp</dimen>
+    <dimen name="icon_vote_size">50dp</dimen>
+    <dimen name="count_text_margin">10dp</dimen>
+    <dimen name="search_bar_margin_start">10dp</dimen>
+    <dimen name="search_bar_margin_end">10dp</dimen>
+    <dimen name="seach_bar_margin_top">2dp</dimen>
+    <dimen name="recycler_margin_top">5dp</dimen>
+    <dimen name="giphy_thumb_size">100dp</dimen>
+    <dimen name="play_icon_height">30dp</dimen>
+</resources>
